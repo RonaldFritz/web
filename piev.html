@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuela 743 - P.I.Ev.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-top">
+                <img src="assets/logo.png" alt="Logo Escuela 743" class="school-logo">
+                <div class="header-info">
+                    <h1>Escuela 743 - ¡Bienvenidos!</h1>
+                    <p>Provincia del Chubut - Ministerio de Educación</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+					<li><a href="diseño-ciclo-basico.html">Diseño Curricular C. Básico</a></li>
+                    <li><a href="diseño-general-co.html">Diseño Curricular C.O.</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Orientaciones</a>
+                        <div class="dropdown-content">
+                            <a href="economia.html">Economía y Administración</a>
+                            <a href="naturales.html">Ciencias Naturales</a>
+							
+                            <!-- Puedes agregar más orientaciones aquí -->
+                        </div>
+                    </li>
+                    <!-- Nuevo elemento dropdown para Gestión Institucional -->
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Gestión Institucional</a>
+                        <div class="dropdown-content">
+                            <a href="pci.html">P.C.I.</a>
+                            <a href="piev.html">P.I.Ev.</a>
+                            <a href="corredores.html">Corredores</a>
+							<a href="observacion.html">Instrumento de observación</a>
+							<a href="autoobs.html" class="active">Auto observación</a>
+                        </div>
+                    </li>
+					<li><a href="diseño-general-co.html#about">Acerca de este sitio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="piev-introduccion">
+            <h2>Proyecto Institucional de Evaluación (P.I.Ev.)</h2>
+            <div class="content-block">
+                <h3>1. Datos Institucionales</h3>
+                <ul>
+                    <li><strong>Nombre de la Institución:</strong> Escuela Provincial N° 743 "Parque Eólico Antonio Morán"</li>
+                    <li><strong>Turno:</strong> Mañana y Tarde</li>
+                    <li><strong>Ubicación:</strong> Av. Callao 851, Comodoro Rivadavia, Chubut</li>
+                    <li><strong>Modalidad:</strong> Educación Secundaria Básica y Orientada</li>
+                    <li><strong>Plan de Estudios:</strong>
+                        <ul>
+                            <li>Ciclo Básico (1º, 2º y 3º año) – Común a todas las orientaciones</li>
+                            <li>Ciclo Orientado:
+                                <ul>
+                                    <li>Ciencias Naturales (4°, 5° y 6° año)</li>
+                                    <li>Economía y Administración (4º, 5º y 6° año)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h3>2. Fundamentación</h3>
+                <p>El presente Proyecto Institucional de Evaluación (PIEv) se enmarca en el marco normativo nacional y provincial que garantiza el derecho a la educación de todos los estudiantes, en condiciones de equidad, inclusión y calidad. Se sustenta en:</p>
+                <ul>
+                    <li>Ley Nacional de Educación N° 26.206 (2006)</li>
+                    <li>Ley Provincial de Educación VIII Nº 91</li>
+                    <li>Resolución CFE N° 330/17, que promueve una escuela democrática y la terminalidad del nivel</li>
+                    <li>Resolución CFE N° 311/16, sobre la inclusión de estudiantes con discapacidad</li>
+                    <li>Resolución ME N° 29/24, que aprueba las <em>Regulaciones para acompañar el recorrido de las Trayectorias Escolares en el Nivel Secundario</em></li>
+                </ul>
+                <p>Este PIEv se concibe como un instrumento pedagógico y administrativo que organiza, orienta y regula las prácticas evaluativas de la institución, promoviendo el trabajo colegiado, la coherencia curricular y el acompañamiento integral de las trayectorias escolares. Su finalidad es garantizar que la evaluación no sea un acto de control, sino una herramienta de aprendizaje, mejora continua y equidad educativa.</p>
+                <p>Adoptamos una concepción de evaluación formativa, contextualizada y colegiada, alineada con los principios de una pedagogía de la diversidad.</p>
+                <p>La evaluación se entiende como un proceso continuo, inherente a la enseñanza y al aprendizaje, que permite:</p>
+                <ul>
+                    <li>Diagnosticar saberes previos</li>
+                    <li>Acompañar los avances y dificultades</li>
+                    <li>Retroalimentar de manera oportuna</li>
+                    <li>Tomar decisiones pedagógicas ajustadas</li>
+                    <li>Fortalecer la autonomía y la metacognición en los estudiantes</li>
+                </ul>
+                <p>Este enfoque se articula con el Plan Estratégico Integral de Fortalecimiento de las Trayectorias Escolares, asegurando coherencia entre la planificación, la enseñanza, la evaluación y la promoción.</p>
+
+                <h3>3. Objetivos</h3>
+                <h4>3.1. del PIEv</h4>
+                <ul>
+                    <li>Uniformizar criterios, procedimientos e instrumentos de evaluación, acreditación, calificación y promoción en toda la institución.</li>
+                    <li>Institucionalizar la evaluación colegiada como práctica reflexiva entre pares y equipos de enseñanza.</li>
+                    <li>Garantizar la coherencia entre la planificación curricular, las estrategias didácticas y las prácticas evaluativas.</li>
+                    <li>Establecer canales claros, sistemáticos y oportunos de comunicación y retroalimentación con estudiantes y familias.</li>
+                    <li>Promover el uso de instrumentos variados y significativos que permitan evidenciar los aprendizajes de manera integral.</li>
+                    <li>Implementar de manera efectiva las instancias compensatorias y los Trayectos Alternativos de Estudio (TAE) como estrategias de apoyo a las trayectorias escolares.</li>
+                </ul>
+                <h4>3.2. de la Evaluación</h4>
+                <ul>
+                    <li>Diagnosticar los saberes previos al inicio del año y de cada unidad significativa, para adecuar las propuestas de enseñanza.</li>
+                    <li>Acompañar los procesos de aprendizaje mediante retroalimentación constante, cualitativa y constructiva.</li>
+                    <li>Valorar el progreso individual de los estudiantes en función de los saberes prioritarios y el desarrollo de capacidades definidas institucionalmente.</li>
+                    <li>Ofrecer múltiples oportunidades para la acreditación de aprendizajes, en línea con una mirada inclusiva y justa.</li>
+                    <li>Fomentar la autoevaluación y la metacognición en los estudiantes, promoviendo su participación activa en su propio proceso formativo.</li>
+                </ul>
+
+                <h3>4. Evaluación</h3>
+                <p>Consideraciones generales; características; tipos de evaluación; Instrumentos de evaluación y evidencias; Evaluación formativa; Evaluación colegiada. Evaluaciones Integradoras (en el marco de la Res. ME 29/24)</p>
+                <h4>Consideraciones generales</h4>
+                <p>La evaluación es un proceso continuo, sistemático, diverso y contextualizado, que se integra al diseño curricular y a las prácticas pedagógicas. Se prioriza su carácter formativo sobre el sumativo, entendiendo que su propósito principal es mejorar el aprendizaje y no solo acreditarlo.</p>
+                <h4>Características de la Evaluación</h4>
+                <ul>
+                    <li><strong>Diversa:</strong> utiliza múltiples instrumentos según el espacio curricular y los aprendizajes.</li>
+                    <li><strong>Gradual:</strong> se desarrolla a lo largo del proceso, no se concentra en momentos puntuales.</li>
+                    <li><strong>Transparente:</strong> los criterios, indicadores y expectativas son comunicados claramente a estudiantes y familias.</li>
+                    <li><strong>Coherente:</strong> está alineada con las estrategias de enseñanza y los objetivos curriculares.</li>
+                    <li><strong>Inclusiva:</strong> atiende la diversidad de ritmos, estilos y contextos de los estudiantes.</li>
+                </ul>
+                <h4>Tipos de Evaluación</h4>
+                <table class="evaluation-table">
+                    <thead>
+                        <tr>
+                            <th>Tipo</th>
+                            <th>Momento</th>
+                            <th>Propósito</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Diagnóstica</td>
+                            <td>Inicio del año y de unidades significativas</td>
+                            <td>Reconocer saberes previos y planificar adecuadamente</td>
+                        </tr>
+                        <tr>
+                            <td>Formativa</td>
+                            <td>Permanente durante el proceso</td>
+                            <td>Acompañar, retroalimentar y ajustar estrategias</td>
+                        </tr>
+                        <tr>
+                            <td>Integradora</td>
+                            <td>Al finalizar cada cuatrimestre</td>
+                            <td>Articular saberes y capacidades fundamentales</td>
+                        </tr>
+                        <tr>
+                            <td>Sumativa</td>
+                            <td>Al final del año o en instancias compensatorias</td>
+                            <td>Acreditar aprendizajes y tomar decisiones de promoción</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h4>Instrumentos de Evaluación y Evidencias</h4>
+                <p>Se utilizarán diversos instrumentos, según la naturaleza del espacio curricular y los aprendizajes a evaluar:</p>
+                <ul>
+                    <li>Rúbricas de evaluación</li>
+                    <li>Portafolios de trabajo</li>
+                    <li>Producciones escritas y orales</li>
+                    <li>Evaluaciones escritas individuales</li>
+                    <li>Proyectos interdisciplinarios</li>
+                    <li>Trabajos prácticos y experimentos</li>
+                    <li>Observación directa del desempeño</li>
+                    <li>Debates, simulaciones y presentaciones orales</li>
+                    <li>Autoevaluaciones y coevaluaciones</li>
+                    <li>Informes de investigación</li>
+                </ul>
+                <p>Estos instrumentos permiten recopilar evidencias que reflejan el desarrollo de capacidades cognitivas, socioemocionales y ciudadanas.</p>
+                <h4>Evaluación Formativa</h4>
+                <ul>
+                    <li>Se realizarán al menos dos informes cualitativos por cuatrimestre, comunicados a las familias.</li>
+                    <li>La retroalimentación será oportuna, clara y constructiva, orientada a la mejora de la trayectoria del estudiante.</li>
+                    <li>Se utilizarán registros de observación, devoluciones en clase y reuniones con tutores.</li>
+                </ul>
+                <h4>Evaluación Colegiada</h4>
+                <ul>
+                    <li>Se implementará en espacios curriculares que requieren trabajo conjunto, como:
+                        <ul>
+                            <li>Ciencias Sociales y Ciencias Naturales en 1° año (parejas pedagógicas)</li>
+                            <li>Espacio para la Integración de Saberes (EIS)</li>
+                            <li>Articulación de áreas en ciclo orientado</li>
+                            <li>Decisiones sobre promoción, acreditación y casos especiales</li>
+                        </ul>
+                    </li>
+                    <li>El equipo docente, junto con el equipo directivo y el POT, analizará las trayectorias y tomará decisiones consensuadas.</li>
+                </ul>
+                <h4>Evaluaciones Integradoras (Res. ME N° 29/24)</h4>
+                <ul>
+                    <li>Se implementarán en todos los espacios curriculares al finalizar cada cuatrimestre.</li>
+                    <li>Buscan integrar saberes y capacidades fundamentales, evitando la fragmentación disciplinar.</li>
+                    <li>Pueden adoptar formatos diversos: proyectos, portafolios, ensayos, exposiciones, investigaciones, simulaciones, etc.</li>
+                    <li>Su diseño será coherente con las estrategias de enseñanza desarrolladas durante el periodo.</li>
+                    <li>Constituyen un insumo clave para la calificación cuatrimestral.</li>
+                </ul>
+
+                <h3>5. Promoción, Acreditación y Calificación</h3>
+                <h4>Conceptos</h4>
+                <ul>
+                    <li><strong>Promoción:</strong> Acto mediante el cual se habilita al estudiante para pasar al año siguiente. Se promociona con todos los espacios acreditados o con hasta 2 espacios curriculares adeudados.</li>
+                    <li><strong>Acreditación:</strong> Reconocimiento del logro de los saberes prioritarios de un espacio curricular, independientemente del momento en que se alcancen.</li>
+                    <li><strong>Calificación:</strong> Valor numérico (escala 1 a 10) que refleja una ponderación integral del proceso de aprendizaje, no un promedio aritmético.</li>
+                </ul>
+                <h4>Requisitos para la Promoción</h4>
+                <ul>
+                    <li>Acreditación de los saberes acordados institucionalmente.</li>
+                    <li>Asistencia mínima del 80% al ciclo lectivo.</li>
+                    <li>En caso de no promocionar, el estudiante recursará todos los espacios, y deberá obtener al menos 4 puntos en los ya acreditados para revalidarlos.</li>
+                </ul>
+                <h4>Instancias de Acreditación</h4>
+                <ul>
+                    <li>Cursado regular</li>
+                    <li>Instancias Compensatorias:
+                        <ul>
+                            <li>Diciembre (para quienes no acreditaron con 6 o más puntos)</li>
+                            <li>Febrero/Marzo (segunda oportunidad)</li>
+                        </ul>
+                    </li>
+                    <li>Comisión Evaluadora: para estudiantes libres, con espacios pendientes o que finalizaron el ciclo orientado.</li>
+                    <li>Trayectos Alternativos de Estudio (TAE): propuestas personalizadas de apoyo institucional.</li>
+                </ul>
+                <h4>Comisiones Evaluadoras</h4>
+                <ul>
+                    <li>Se conforman para casos específicos: estudiantes libres, adelantamiento de curso, finalización de estudios.</li>
+                    <li>No se evaluará más de dos espacios por día por estudiante.</li>
+                    <li>Requieren notificación previa y autorización del equipo directivo.</li>
+                </ul>
+                <h4>Trayectos Alternativos de Estudio (TAE)</h4>
+                <ul>
+                    <li>Diseñados para estudiantes con espacios pendientes, en riesgo pedagógico o con dificultades de asistencia.</li>
+                    <li>Incluyen: clases de apoyo, proyectos compensatorios, talleres intensivos, itinerarios integrados.</li>
+                    <li>Se organizan en forma colegiada, con seguimiento de los coordinadores, tutor y POT.</li>
+                </ul>
+                <h4>Promoción Ciclada</h4>
+                <p>Estrategia excepcional para estudiantes del Ciclo Básico que:</p>
+                <ul>
+                    <li>Tienen entre 14 y 17 años</li>
+                    <li>Han cursado un año</li>
+                    <li>Adeudan hasta 3 espacios curriculares</li>
+                    <li>Atraviesan situaciones contextuales graves (salud, familia, movilidad)</li>
+                </ul>
+                <p>Requiere:</p>
+                <ul>
+                    <li>Análisis colegiado</li>
+                    <li>Disposición directiva</li>
+                    <li>Acta compromiso con el estudiante y su familia</li>
+                    <li>Seguimiento prioritario en el primer cuatrimestre</li>
+                </ul>
+                <h4>Retroalimentación</h4>
+                <ul>
+                    <li>Será permanente, clara y constructiva, dirigida al estudiante y su familia.</li>
+                    <li>Se realizará mediante informes cualitativos, reuniones, devoluciones en clase y plataformas institucionales.</li>
+                    <li>Tiene como fin promover la mejora, la responsabilidad y la autorregulación.</li>
+                </ul>
+
+                <h3>6. Estudiantes libres y en situación de movilidad</h3>
+                <ul>
+                    <li>Se aplicará lo establecido en la Resolución ME N° 29/24, Resolución CFE N° 102/10 y Disposición DGES N° 13/16.</li>
+                    <li>Para estudiantes en movilidad, se priorizará la continuidad de la trayectoria mediante:
+                        <ul>
+                            <li>Acuerdos curriculares</li>
+                            <li>Validación de saberes</li>
+                            <li>Ajustes en instancias de evaluación</li>
+                        </ul>
+                    </li>
+                    <li>Los estudiantes libres podrán acreditar espacios ante Comisiones Evaluadoras, con planificación previa y acompañamiento institucional a través de Trabajos Integradores.</li>
+                </ul>
+
+                <h3>7. Modalidad de cursada</h3>
+                <ul>
+                    <li>La cursada es anual y presencial, organizada en dos cuatrimestres de 18 semanas cada uno.</li>
+                    <li>Se implementan estrategias de integración de saberes y articulación interdisciplinaria, como el proyecto institucional "Derechos Humanos y Medio Ambiente" en 1° año.</li>
+                    <li>Se aprovechan espacios escolares: SUM, biblioteca, laboratorio, aulas múltiples.</li>
+                    <li>Se promueve el uso de TIC y actividades extracurriculares como extensión del aula.</li>
+                </ul>
+
+                <h3>8. Asistencia</h3>
+                <h4>Criterios Pedagógicos</h4>
+                <ul>
+                    <li>La asistencia se entiende como un contenido de enseñanza, no solo un requisito formal.</li>
+                    <li>Se trabaja su sentido desde el contrato didáctico, el ejemplo docente y la reflexión conjunta.</li>
+                    <li>Se promueve la continuidad como condición para la participación, el aprendizaje y la memoria colectiva.</li>
+                </ul>
+                <h4>Aspectos Operativos</h4>
+                <ul>
+                    <li>Control diario de asistencia, registrado en el sistema institucional.</li>
+                    <li>Comunicación mensual de inasistencias a las familias.</li>
+                    <li>Cómputo de faltas:
+                        <ul>
+                            <li>Llegada tarde ≤ 15 min: 1/4 de falta</li>
+                            <li>Llegada tarde > 15 min: 1/2 falta</li>
+                            <li>Retiro después de la mitad de la jornada: 1/2 falta</li>
+                        </ul>
+                    </li>
+                </ul>
+                <h4>Casos Especiales</h4>
+                <p>Para estudiantes con dificultades de asistencia (embarazo, salud, movilidad, contexto rural, etc.), se aplicarán alternativas previstas en la normativa:</p>
+                <ul>
+                    <li>Asistencia intensiva</li>
+                    <li>Semipresencialidad (en Ciclo Orientado)</li>
+                    <li>Presencialidad asistida con recursos virtuales</li>
+                    <li>Tutorías o materiales de autoaprendizaje</li>
+                </ul>
+                <p>Estas opciones se establecerán en el Proyecto Formativo con seguimiento del equipo docente y el POT.</p>
+
+                <h3>9. Evaluación del PIEv</h3>
+                <p>La evaluación del presente Proyecto Institucional de Evaluación (PIEv) no es un acto final, sino un proceso continuo de reflexión crítica, análisis institucional y mejora pedagógica. Se entiende como una instancia fundamental para garantizar que el PIEv cumpla su función como instrumento vivo, ajustable y significativo en el acompañamiento de las trayectorias escolares.</p>
+                <p>Este proceso de evaluación tiene como finalidad:</p>
+                <ul>
+                    <li>Verificar el grado de implementación y cumplimiento de los acuerdos establecidos.</li>
+                    <li>Identificar fortalezas, desafíos y áreas de mejora en las prácticas evaluativas.</li>
+                    <li>Promover la toma de decisiones colectivas para ajustar estrategias y fortalecer la coherencia entre política, planificación y práctica.</li>
+                    <li>Consolidar una cultura institucional de evaluación entre pares, basada en la colaboración, el respeto y el compromiso con la equidad educativa.</li>
+                </ul>
+                <h4>Estrategias para la Evaluación del PIEv</h4>
+                <ol>
+                    <li><strong>Jornadas Institucionales de Reflexión Pedagógica</strong>
+                        <ul>
+                            <li>Se realizarán dos instancias anuales (una a mitad de año y otra al cierre del ciclo) destinadas específicamente a la evaluación del PIEv.</li>
+                            <li>Participarán: equipo directivo, docentes, preceptores, POT. Se abordarán temáticas como:
+                                <ul>
+                                    <li>Coherencia entre planificación, enseñanza y evaluación.</li>
+                                    <li>Uso de instrumentos de evaluación formativa.</li>
+                                    <li>Implementación de las instancias compensatorias y TAE.</li>
+                                    <li>Comunicación con familias y retroalimentación.</li>
+                                    <li>Impacto del PIEv en la terminalidad del nivel.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><strong>Análisis Colegiado de Trayectorias Escolares</strong>
+                        <ul>
+                            <li>En cada corte cuatrimestral, los equipos de enseñanza y el equipo directivo analizan de forma conjunta:
+                                <ul>
+                                    <li>Porcentaje de estudiantes que acreditan espacios curriculares.</li>
+                                    <li>Cantidad de estudiantes en instancias compensatorias.</li>
+                                    <li>Casos de estudiantes en riesgo pedagógico o con dificultades de asistencia.</li>
+                                </ul>
+                            </li>
+                            <li>Este análisis permite detectar patrones, ajustar estrategias y diseñar intervenciones personalizadas.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Revisión de Instrumentos y Registros Evaluativos</strong>
+                        <ul>
+                            <li>Se realiza un control institucional periódico de:
+                                <ul>
+                                    <li>Informes cualitativos entregados a familias.</li>
+                                    <li>Calificaciones cuatrimestrales y finales.</li>
+                                    <li>Registro de evaluaciones integradoras.</li>
+                                    <li>Documentación de Trayectos Alternativos de Estudio (TAE).</li>
+                                </ul>
+                            </li>
+                            <li>El objetivo es garantizar la homogeneidad, transparencia y calidad de los procesos evaluativos.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Encuestas de Percepción</strong>
+                        <ul>
+                            <li>Al final del ciclo, se aplican encuestas anónimas a:
+                                <ul>
+                                    <li>Estudiantes: sobre claridad de criterios, oportunidades de acreditación, retroalimentación recibida.</li>
+                                    <li>Familias: sobre comunicación, comprensión de procesos evaluativos y acompañamiento.</li>
+                                    <li>Docentes: sobre trabajo colegiado, carga de trabajo, herramientas disponibles.</li>
+                                </ul>
+                            </li>
+                            <li>Los resultados se analizan en equipo y se incorporan como insumos para la revisión del PIEv.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Revisión del Proyecto Formativo Institucional</strong>
+                        <ul>
+                            <li>El PIEv se articula con el Proyecto Formativo Institucional (PFI), por lo que su evaluación forma parte del seguimiento global de la propuesta pedagógica.</li>
+                            <li>Se analiza cómo las decisiones del PIEv impactan en:
+                                <ul>
+                                    <li>La equidad en las promociones.</li>
+                                    <li>La reducción del abandono escolar.</li>
+                                    <li>La inclusión de estudiantes con trayectorias complejas.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><strong>Ajuste y Actualización del PIEv</strong>
+                        <ul>
+                            <li>Sobre la base de los datos recopilados, se realiza una revisión formal del PIEv antes del inicio del próximo ciclo lectivo.</li>
+                            <li>Los ajustes se proponen en reunión institucional, se debaten y se aprueban colectivamente.</li>
+                            <li>El nuevo PIEv incorpora:
+                                <ul>
+                                    <li>Nuevas estrategias de evaluación formativa.</li>
+                                    <li>Mejoras en la comunicación con familias.</li>
+                                    <li>Optimización de instancias compensatorias y TAE.</li>
+                                    <li>Actualización de instrumentos según las necesidades emergentes.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <h3>10. Bibliografía</h3>
+                <ul>
+                    <li>Ministerio de Educación de la Provincia del Chubut. (2024). Resolución ME N° 29/24. <em>Regulaciones para acompañar el recorrido de las Trayectorias Escolares en el Nivel Secundario.</em></li>
+                    <li>DGES. (2024). <em>Documento de Apoyo N° 3: Evaluaciones Integradoras.</em></li>
+                    <li>Consejo Federal de Educación. (2017). Resolución CFE N° 330/17, 311/16, 102/10.</li>
+                    <li>Anijovich, R. (Comp.). (2010). <em>La evaluación significativa.</em> Paidós.</li>
+                    <li>Camilloni, A. (2010). <em>La evaluación de los aprendizajes en el debate didáctico contemporáneo.</em> En Anijovich, R. (Comp.), La evaluación significativa. Paidós.</li>
+                    <li>Ley Nacional de Educación N° 26.206 (2006).</li>
+                    <li>Ley Provincial de Educación VIII Nº 91.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Escuela Provincial N°743. Todos los derechos reservados.</p>
+        <p>Provincia del Chubut - Ministerio de Educación</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

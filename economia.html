@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economía y Administración - Escuela 743</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-top">
+                <img src="assets/logo.png" alt="Logo Escuela 743" class="school-logo">
+                <div class="header-info">
+                    <h1>Orientación en Economía y Administración</h1>
+                    <p>Provincia del Chubut - Ministerio de Educación</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+					<li><a href="diseño-ciclo-basico.html">Diseño Curricular C. Básico</a></li>
+                    <li><a href="diseño-general-co.html">Diseño Curricular C.O.</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Orientaciones</a>
+                        <div class="dropdown-content">
+                            <a href="economia.html">Economía y Administración</a>
+                            <a href="naturales.html">Ciencias Naturales</a>
+							
+                            <!-- Puedes agregar más orientaciones aquí -->
+                        </div>
+                    </li>
+                    <!-- Nuevo elemento dropdown para Gestión Institucional -->
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Gestión Institucional</a>
+                        <div class="dropdown-content">
+                            <a href="pci.html">P.C.I.</a>
+                            <a href="piev.html">P.I.Ev.</a>
+                            <a href="corredores.html">Corredores</a>
+							<a href="observacion.html">Instrumento de observación</a>
+							<a href="autoobs.html" class="active">Auto observación</a>
+                        </div>
+                    </li>
+					<li><a href="diseño-general-co.html#about">Acerca de este sitio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="orientacion-economia-administracion">
+            <h2>Orientación en Economía y Administración</h2>
+            <div class="content-block">
+                <h3>Fundamentación</h3>
+                <p>La organización pedagógico-didáctica de esta propuesta para la Educación Secundaria Orientada en Economía y Administración ha sido elaborada teniendo en cuenta los lineamientos del Marco de Referencia establecido por la Resolución Nº 142/11 del Consejo Federal de Educación. En este marco, al igual que todas las orientaciones, se propone brindar a los estudiantes aprendizajes significativos a fin de prepararlos para que logren ejercer plenamente una ciudadanía responsable y participativa, que adquieran conocimientos y destrezas en la formación del saber sobre el trabajo y oficiar de propedéutico para la continuación de estudios de niveles superiores. [PAGE 1, 355]</p>
+                <p>El desarrollo en los estudiantes de un espíritu crítico y participativo es esencial, de modo tal que les permita interpretar la realidad económica, las políticas económicas gubernamentales, las políticas y valores organizacionales y que puedan identificar la existencia de problemáticas sociales, económicas y productivas en las actividades de su vida cotidiana. [PAGE 1, 355]</p>
+                <p>Se asume el compromiso de fomentar e incorporar en los estudiantes destrezas y habilidades propias de los campos de conocimiento de la formación específica, recuperando la adaptabilidad crítica a los cambios, la iniciativa propia, la plasticidad en el pensar y actuar, el pensamiento estratégico, la conducta ética, los principios y criterios de calidad total, la creatividad, el espíritu crítico, y la utilización de la información y de las nuevas tecnologías. [PAGE 356]</p>
+
+                <h3>Propósitos de Enseñanza</h3>
+                <ul>
+                    <li>Promover adquisición de saberes relacionados con los procesos de formación de la estructura económica de la región, para lograr una reflexión sobre modelos de desarrollo, impacto económico, social y ambiental. [PAGE 366]</li>
+                    <li>Ofrecer a los estudiantes situaciones de enseñanza que incentiven el trabajo en equipo, el trabajo de carácter colaborativo, de manera que se logre la comprensión de derechos y responsabilidades. [PAGE 366]</li>
+                    <li>Colaborar en la formación política, favoreciendo una actitud crítica de los estudiantes, poniendo a su disposición herramientas y conceptos que contribuyan a la interpretación de la complejidad de fenómenos sociales, económicos y productivos de su contexto. [PAGE 366]</li>
+                    <li>Estimular en los estudiantes la reflexión acerca de la importancia de la información, de su obtención, almacenamiento y utilización. [PAGE 366]</li>
+                    <li>Fomentar la actitud proactiva, creando en el aula un ambiente interactivo, que estimule la participación ciudadana con el propósito de lograr mejor calidad de vida para la comunidad. [PAGE 366]</li>
+                </ul>
+
+                <h3>Estructura de Espacios Curriculares</h3>
+                <p>La Orientación en Economía y Administración se estructura en un "corredor" de saberes que se consolida en tres ejes: Economía y Desarrollo; Administración y Contabilidad; y Derecho y Trabajo. Estos ejes se componen de diversos espacios curriculares con una progresión en complejidad a lo largo de los años. [PAGE 36, 5]</p>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Eje</th>
+                                <th>4º Año (Horas)</th>
+                                <th>5º Año (Horas)</th>
+                                <th>6º Año (Horas)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Economía y Desarrollo</td>
+                                <td>Microeconomía [4]</td>
+                                <td>Economía Social y Desarrollo Local [2]</td>
+                                <td>Macroeconomía [4]</td>
+                            </tr>
+                            <tr>
+                                <td>Administración y Contabilidad</td>
+                                <td>Administración de las Organizaciones [3]</td>
+                                <td>Comercialización y Marketing [3]<br>Comunicación e Información en las Organizaciones [4]</td>
+                                <td>Emprendimiento Socio Productivo [6]</td>
+                            </tr>
+                            <tr>
+                                <td>Derecho y Trabajo</td>
+                                <td>Derecho [2]</td>
+                                <td>Recursos Humanos y Relaciones Laborales [2]</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="citation">Adaptado de: Orientación en Economía y Administración - Anexo VI, Hoja 5 (p. 5 del documento).</p>
+
+                <p>A continuación, se detalla la información de los espacios curriculares de la orientación:</p>
+
+                <div class="subject-section">
+                    <h4>Microeconomía</h4>
+                    <div class="year-content">
+                        <h5>4º Año</h5>
+                        <h6>Fundamentación</h6>
+                        <p>El espacio de Microeconomía se enfoca en el estudio de los agentes económicos individuales y sus interacciones en el mercado. Se busca que los estudiantes comprendan cómo se toman decisiones y se asignan los recursos en una economía, partiendo de la comprensión de la escasez y la necesidad de elegir. También se analizarán las diferentes estructuras de mercado para identificar implicancias económicas y sociales. [PAGE 6, 8]</p>
+                        <h6>Propósitos de Enseñanza</h6>
+                        <ul>
+                            <li>Comprender los conceptos fundamentales de la microeconomía y su aplicación a la realidad socio-productiva de su comunidad. [Inferred from PAGE 6, 8]</li>
+                            <li>Analizar el funcionamiento de los mercados y la determinación de precios. [Inferred from PAGE 6, 8]</li>
+                            <li>Desarrollar habilidades para interpretar fenómenos económicos y tomar decisiones fundamentadas. [Inferred from PAGE 6, 8]</li>
+                        </ul>
+                        <h6>Contenidos Mínimos / Núcleos Temáticos</h6>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Ejes Estructurantes</th>
+                                        <th>Núcleos Temáticos</th>
+                                        <th>Contenidos</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="4">Eje: Economía y Desarrollo.</td>
+                                        <td>La actividad económica: Introducción a la Economía.</td>
+                                        <td>Economía: Concepto, relación con otras ciencias, ramas y divisiones, importancia. Principios Básicos: necesidades y escasez. Necesidades: concepto, clasificación, características. Bien: concepto, bienes y recursos económicos, clasificación. Factores de la producción. Circuito Económico. [PAGE 6, 8]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Teoría de la Oferta y la Demanda.</td>
+                                        <td>Intercambio de bienes. Unidad de producción. Unidad de consumo. Oferta y demanda: concepto, equilibrio, variaciones de precio, desplazamientos, elasticidad. [PAGE 6, 8]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Estudio de la Demanda.</td>
+                                        <td>Teoría de la demanda del consumidor: concepto, utilidad total, parcial y marginal. Excedentes del consumidor. Limitaciones de la demanda. Curvas de Indiferencia. Línea de Restricción Presupuestaria. Punto de equilibrio del consumidor. [PAGE 6, 8]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Estudio de la Oferta.</td>
+                                        <td>Combinaciones de Factores Productivos. Líneas isocuantas e isocostes. Costos de producción. Los costos y la capacidad productiva de la empresa: costos fijos y variables, costo marginal. Ingresos y costos: ingresos totales, medios y marginales. Concepto de productividad. Maximización del beneficio. [PAGE 6-7, 8-9]</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="citation">Adaptado de: Orientación en Economía y Administración - Anexo VI, Hoja 6 (p. 6 del documento).</p>
+                        <h6>Orientaciones Metodológicas</h6>
+                        <p>Se sugiere abordar los contenidos en clases interactivas que animen la participación de los alumnos. Se propone la confección de cuadros sinópticos y comparativos, ejemplificaciones de cada concepto (referidas a vivencias de los estudiantes como compradores/consumidores), resolución de ejercicios prácticos (confección de tablas, gráficos, curvas de oferta y demanda, cálculos de costos, beneficios e índices económicos), y el estudio de casos (reales, con contexto y normativa). [PAGE 17, 19]</p>
+                        <h6>Evaluación</h6>
+                        <p>La evaluación se orienta a la identificación y el análisis de problemáticas socio-económicas, organizacionales y ambientales. Incluye el reconocimiento, posicionamiento y argumentación de distintas interpretaciones, la interpretación y análisis crítico de fuentes de información (oral, escrita, audiovisual), y la producción de recursos (lenguajes y tecnologías). Se valora la promoción de prácticas colaborativas y el seguimiento permanente del avance de los estudiantes. [PAGE 21]</p>
+                    </div>
+
+                    <div class="year-content">
+                        <h5>Contenidos Mínimos (Microeconomía)</h5>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>4º Año</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Comprensión de los conceptos básicos de economía (escasez, costo de oportunidad). Análisis del funcionamiento de los mercados (oferta y demanda, equilibrio, elasticidades). Entendimiento de las teorías del consumidor y del productor.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subject-section">
+                    <h4>Administración de las Organizaciones</h4>
+                    <div class="year-content">
+                        <h5>4º Año</h5>
+                        <h6>Fundamentación</h6>
+                        <p>Este espacio curricular introduce a los estudiantes en el mundo de las organizaciones, su estructura, funcionamiento y la importancia de una gestión eficiente para lograr objetivos. Se busca comprender el rol de la administración en el contexto socioeconómico actual, así como las características de las organizaciones y su relación con el entorno, enfatizando una perspectiva sistémica. [PAGE 9, 11]</p>
+                        <h6>Propósitos de Enseñanza</h6>
+                        <ul>
+                            <li>Comprender el concepto de organización y sus tipos, sus fines y su relación con el entorno. [Inferred from PAGE 9, 11]</li>
+                            <li>Analizar las funciones y procesos administrativos (planificación, organización, dirección y control) dentro de una organización. [Inferred from PAGE 9, 11]</li>
+                            <li>Valorar la importancia de la eficiencia, la ética y la responsabilidad social en la gestión de organizaciones. [Inferred from PAGE 9, 11]</li>
+                        </ul>
+                        <h6>Contenidos Mínimos / Núcleos Temáticos</h6>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Eje</th>
+                                        <th>Núcleos Temáticos</th>
+                                        <th>Contenidos</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="3">Eje: Administración y Contabilidad.</td>
+                                        <td>Organizaciones.</td>
+                                        <td>Organización: Definiciones, Nacimiento. Cultura y comportamiento organizacional. Roles. Lógica funcional de las Organizaciones. Estructuras. Departamentos, sectores que forman una organización. Actividades que se realizan. Emprendimientos. Negocios. PyMEs. Definiciones. Diferencias. Clasificaciones. [PAGE 10, 11]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Administración de las Organizaciones.</td>
+                                        <td>Misión y Visión. Objetivos organizacionales. Análisis FODA. Proceso de Planificación. Planificación Táctica y Estratégica. Implementación y evaluación de la estrategia organizacional. Programas. Planes. Presupuestos. Proyectos. Organigramas. Cursogramas. Flujogramas. Gráficos GANTT y de PERT. [PAGE 10, 11]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Toma de Decisiones.</td>
+                                        <td>Recursos: Tipos, Materiales, financieros, humanos. Fuentes de financiamiento. Asignación de Recursos. Principios de Calidad. Normalización de productos y procesos. [PAGE 10, 11]</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="citation">Adaptado de: Orientación en Economía y Administración - Anexo VI, Hoja 10 (p. 10 del documento).</p>
+                        <h6>Orientaciones Metodológicas</h6>
+                        <p>Se propone la confección de distintos diagramas (organigramas, cursogramas, flujogramas, diagramas de GANTT y PERT), el estudio de legislación vigente (Libros de Contabilidad, impuestos), la elaboración de documentación (archivos, carpetas de legajos de clientes y proveedores), cuadros comparativos, elaboración de registros contables, y el estudio de casos. [PAGE 17, 19]</p>
+                        <h6>Evaluación</h6>
+                        <p>La evaluación se orienta a la identificación y el análisis de problemáticas organizacionales. Incluye el conocimiento y análisis de la lógica de procesos de planificación, ejecución y control de operaciones, la interpretación y el análisis crítico de fuentes de información y la producción de recursos (lenguajes y tecnologías). Se valora la promoción de prácticas colaborativas y el seguimiento permanente del avance de los estudiantes. [PAGE 21]</p>
+                    </div>
+
+                    <div class="year-content">
+                        <h5>Contenidos Mínimos (Administración de las Organizaciones)</h5>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>4º Año</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Comprensión del concepto y tipos de organizaciones. Análisis del proceso administrativo (planificación, organización, dirección, control). Aplicación de herramientas de gestión (organigramas, diagramas de Gantt).</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subject-section">
+                    <h4>Derecho</h4>
+                    <div class="year-content">
+                        <h5>4º Año</h5>
+                        <h6>Fundamentación</h6>
+                        <p>El espacio de Derecho introduce a los estudiantes en los fundamentos del sistema jurídico y su relación con la vida cotidiana y el trabajo. Se busca que comprendan la importancia de las normas para la convivencia social y el respeto de los derechos y obligaciones, así como la estructura del poder judicial. [PAGE 12, 13]</p>
+                        <h6>Propósitos de Enseñanza</h6>
+                        <ul>
+                            <li>Propiciar instancias de trabajo áulico para conocer normas jurídicas que rigen el desarrollo de actividades de las organizaciones. [PAGE 3, 5]</li>
+                            <li>Comprender los principios fundamentales del Derecho y su aplicación a situaciones de la vida cotidiana y laboral. [Inferred from PAGE 12, 13]</li>
+                            <li>Analizar la estructura del sistema jurídico argentino, sus fuentes y sus diferentes ramas. [Inferred from PAGE 12, 13]</li>
+                            <li>Valorar el respeto por las normas, los derechos humanos y las obligaciones como pilares de la convivencia democrática. [Inferred from PAGE 12, 13]</li>
+                        </ul>
+                        <h6>Contenidos Mínimos / Núcleos Temáticos</h6>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Eje</th>
+                                        <th>Núcleos Temáticos</th>
+                                        <th>Contenidos</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="4">Eje: Derecho y Trabajo.</td>
+                                        <td>Introducción al Derecho.</td>
+                                        <td>Definiciones. Clasificaciones. Fuentes. División del Derecho. Derecho Objetivo y Derecho Subjetivo. Derecho Privado y Social. [PAGE 13]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hechos y Actos Jurídicos.</td>
+                                        <td>Definiciones. Diferencias. Formalidades. Hecho ilícito. [PAGE 13]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Persona.</td>
+                                        <td>Concepto. Clasificaciones. Personas físicas. Personas jurídicas. [PAGE 13]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Patrimonio.</td>
+                                        <td>Noción. Elementos que lo integran. Cosas. Bienes. Bienes Personales. Obligaciones. Derecho Comercial: Economía y Derecho. Fuentes. Actos de Comercio. Clasificación. Comerciante individual. Obligaciones de comerciantes. Sociedades. Características. Clasificación. Ley 19550. Registro Público de Comercio. Contratos. Tipos. [PAGE 13]</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="citation">Adaptado de: Orientación en Economía y Administración - Anexo VI, Hoja 13 (p. 13 del documento).</p>
+                        <h6>Orientaciones Metodológicas</h6>
+                        <p>Se propone el análisis de casos jurídicos sencillos, la lectura e interpretación de leyes y normativas, y el debate sobre situaciones que involucren derechos y obligaciones. Se fomenta la investigación de fuentes legales y la argumentación. [PAGE 18, 20]</p>
+                        <h6>Evaluación</h6>
+                        <p>La evaluación se centrará en la capacidad de los estudiantes para identificar situaciones jurídicas, aplicar normas básicas y argumentar sobre derechos y deberes. Se valorará la comprensión del sistema jurídico y su aplicación en la vida cotidiana. [PAGE 21]</p>
+                    </div>
+
+                    <div class="year-content">
+                        <h5>Contenidos Mínimos(Derecho)</h5>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>4º Año</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Comprensión de los principios fundamentales del Derecho. Análisis de la estructura del sistema jurídico y sus fuentes. Identificación de derechos y obligaciones de personas físicas y jurídicas.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subject-section">
+                    <h4>Economía Social y Desarrollo Local</h4>
+                    <div class="year-content">
+                        <h5>5º Año</h5>
+                        <h6>Fundamentación</h6>
+                        <p>Este espacio tiene el objetivo de introducir conceptos de Economía social y de retomar saberes de otros espacios como Proyecto Solidario, para integrar nuevos saberes al espíritu de solidaridad tales como la sustentabilidad económica y ambiental y la conservación del medio ambiente. Se propone desarrollar con los estudiantes un proyecto alternativo de intervención directa en su comunidad, implicando el conocimiento y la evaluación de la estructura económica de la región. [PAGE 7, 9]</p>
+                        <h6>Propósitos de Enseñanza</h6>
+                        <ul>
+                            <li>Comprender el concepto de economía social y solidaria y sus diversas manifestaciones. [Inferred from PAGE 7, 9]</li>
+                            <li>Analizar experiencias de desarrollo local y comunitario, y proponer acciones para su fomento. [Inferred from PAGE 7, 9]</li>
+                            <li>Desarrollar habilidades para el diseño, gestión y evaluación de proyectos de economía social. [Inferred from PAGE 7, 9]</li>
+                        </ul>
+                        <h6>Contenidos Mínimos / Núcleos Temáticos</h6>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Eje</th>
+                                        <th>Núcleos Temáticos</th>
+                                        <th>Contenidos</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="3">Eje: Economía y Desarrollo.</td>
+                                        <td>Introducción al Desarrollo Económico.</td>
+                                        <td>Desarrollo sustentable: Definiciones, Condiciones. Desarrollo económico. Sustentabilidad económica y ambiental. [PAGE 7, 9]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ecología y Sustentabilidad.</td>
+                                        <td>La conservación del medio ambiente en el desarrollo local. Impacto ambiental de emprendimientos productivos. Producción y ambiente. El rol del Estado en el control de la contaminación. [PAGE 7, 9]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Introducción a la Economía Social.</td>
+                                        <td>Principios y fundamentos de la economía social. Formas de organización de la economía social (cooperativas, mutuales, microemprendimientos). Experiencias de economía social en la región. [Inferred from PAGE 7, 9]</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="citation">Adaptado de: Orientación en Economía y Administración - Anexo VI, Hoja 7 (p. 7 del documento).</p>
+                        <h6>Orientaciones Metodológicas</h6>
+                        <p>Se propone generar instancias de trabajo crítico y reflexivo, promoviendo el análisis del rol del Estado en las actividades económicas. Se enfatiza el trabajo colaborativo en la elaboración de estrategias para abordar conceptos de Desarrollo Sustentable. [PAGE 2, 4]</p>
+                        <h6>Evaluación</h6>
+                        <p>La evaluación se orienta a la identificación y el análisis de problemáticas socio-económicas, organizacionales y ambientales. Incluye el conocimiento y análisis de la lógica de procesos de planificación, ejecución y control de operaciones, la interpretación y el análisis crítico de fuentes de información y la producción de recursos (lenguajes y tecnologías). Se valora la promoción de prácticas colaborativas y el seguimiento permanente del avance de los estudiantes. [PAGE 21]</p>
+                    </div>
+
+                    <div class="year-content">
+                        <h5>Contenidos Mínimos (Economía Social y Desarrollo Local)</h5>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>5º Año</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Comprensión de la economía social y solidaria. Análisis de experiencias de desarrollo local y comunitario. Diseño y gestión de proyectos con impacto social y ambiental.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subject-section">
+                    <h4>Comercialización y Marketing</h4>
+                    <div class="year-content">
+                        <h5>5º Año</h5>
+                        <h6>Fundamentación</h6>
+                        <p>El espacio de Comercialización y Marketing introduce a los estudiantes en las estrategias y herramientas utilizadas para la promoción y venta de productos y servicios. Se busca comprender el proceso de creación de valor y la relación con el consumidor en un mercado competitivo, así como la importancia del marketing en el contexto actual. [PAGE 11, 11]</p>
+                        <h6>Propósitos de Enseñanza</h6>
+                        <ul>
+                            <li>Comprender el mercado al cual se dirigen productos o servicios, conociendo sus gustos, inclinaciones y preferencias para lograr fidelizar clientes, satisfaciendo sus necesidades. [PAGE 11, 11]</li>
+                            <li>Identificar posibilidades de establecer relaciones comerciales, entendiendo la secuencia de la operatoria de importación-exportación y la importancia de la integración de la región. [PAGE 11, 11]</li>
+                            <li>Desarrollar habilidades para el diseño y la implementación de estrategias de comercialización y marketing. [Inferred from PAGE 11, 11]</li>
+                        </ul>
+                        <h6>Contenidos Mínimos / Núcleos Temáticos</h6>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Eje</th>
+                                        <th>Núcleos Temáticos</th>
+                                        <th>Contenidos</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="2">Eje: Administración y Contabilidad.</td>
+                                        <td>Comercialización.</td>
+                                        <td>Comercialización: Compra. Venta. Definiciones. Características. Comprador y Vendedor. Cliente. [PAGE 11, 11]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Marketing y el consumidor.</td>
+                                        <td>Núcleo Temático: Estrategias de Marketing. Principios y fundamentos. Caracterización de Clientes. Segmentación. Estudio de Mercado. Técnicas de preparación de encuestas y guías de entrevistas. [PAGE 11, 12]</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="citation">Adaptado de: Orientación en Economía y Administración - Anexo VI, Hoja 11 (p. 11 del documento) y Hoja 12 (p. 12 del documento).</p>
+                        <h6>Orientaciones Metodológicas</h6>
+                        <p>Se propone la confección de planes de promociones y afiches de publicidad para captar o mantener clientes. Se fomenta el estudio de mercado, la identificación de posibilidades de relaciones comerciales internacionales (importación-exportación) y la elaboración de propuestas de servicio de postventa. [PAGE 15, 17]</p>
+                        <h6>Evaluación</h6>
+                        <p>La evaluación se orienta a la identificación y el análisis de problemáticas comerciales y de marketing. Incluye el conocimiento y análisis de la lógica de procesos de planificación, ejecución y control, la interpretación y el análisis crítico de fuentes de información y la producción de recursos (lenguajes y tecnologías). Se valora la promoción de prácticas colaborativas y el seguimiento permanente del avance de los estudiantes. [PAGE 21]</p>
+                    </div>
+
+                    <div class="year-content">
+                        <h5>Contenidos Mínimos (Comercialización y Marketing)</h5>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>5º Año</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Comprensión de los conceptos básicos de comercialización y marketing. Análisis de las estrategias de mercado (producto, precio, plaza, promoción). Identificación del comportamiento del consumidor y segmentación de mercados.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subject-section">
+                    <h4>Comunicación e Información en las Organizaciones</h4>
+                    <div class="year-content">
+                        <h5>5º Año</h5>
+                        <h6>Fundamentación</h6>
+                        <p>Este espacio curricular aborda el tratamiento de la información en las organizaciones, desde su recopilación y utilización hasta la elaboración de documentos útiles para la toma de decisiones. Se estudiarán diferentes maneras de archivar y mantener la información en orden, así como la registración contable de actividades productivas, comerciales y financieras. [PAGE 10, 10]</p>
+                        <h6>Propósitos de Enseñanza</h6>
+                        <ul>
+                            <li>Reconocer la importancia de la interpretación, elaboración y almacenamiento de información, analizando críticamente su utilidad y pertinencia. [PAGE 10, 10]</li>
+                            <li>Valorar la importancia de diseñar y mantener registros, informes, archivos, legajos y otros tipos de información de un modo ordenado y catalogado convenientemente. [PAGE 10, 10]</li>
+                            <li>Desarrollar habilidades para la gestión y el análisis de la información y la comunicación en el ámbito organizacional. [Inferred from PAGE 10, 10]</li>
+                        </ul>
+                        <h6>Contenidos Mínimos / Núcleos Temáticos</h6>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Eje</th>
+                                        <th>Núcleos Temáticos</th>
+                                        <th>Contenidos</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="3">Eje: Administración y Contabilidad.</td>
+                                        <td>Comunicación.</td>
+                                        <td>Proceso de comunicación. Tipos. Formas de comunicación. Códigos. Interpretaciones. Comunicación escrita: informes, memos, cartas comerciales. Comunicación no verbal. Interpretación de información. Jerarquización de información. [PAGE 11]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Diseño de archivos.</td>
+                                        <td>Catalogación. Orden y clasificación. Diseño y Confección de archivos y legajos: de clientes, de proveedores, de personal. [PAGE 11]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Información contable.</td>
+                                        <td>Concepto de Contabilidad. El lenguaje contable. El Patrimonio: Activo, Pasivo, Patrimonio Neto. Documentos comerciales como fuente de información. Normativa vigente. Diseño. Variaciones Patrimoniales. Plan de Cuentas: diseño, creación. Operaciones de compras y ventas al contado y a crédito. Identificación y registración. [PAGE 11]</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="citation">Adaptado de: Orientación en Economía y Administración - Anexo VI, Hoja 11 (p. 11 del documento).</p>
+                        <h6>Orientaciones Metodológicas</h6>
+                        <p>Se propone la confección de diagramas (organigramas, cursogramas, flujogramas), estudio de legislación vigente (Libros de Contabilidad, impuestos), elaboración de documentación (archivos, carpetas de legajos), cuadros comparativos, elaboración de registros contables, y el estudio de casos. Se fomenta la producción de informes, análisis y construcción de gráficos. [PAGE 18, 20]</p>
+                        <h6>Evaluación</h6>
+                        <p>La evaluación se orienta a la identificación y el análisis de problemáticas relacionadas con la información y la comunicación. Incluye el conocimiento y análisis de la lógica de procesos, la interpretación y el análisis crítico de fuentes de información y la producción de recursos (lenguajes y tecnologías). Se valora la promoción de prácticas colaborativas y el seguimiento permanente del avance de los estudiantes. [PAGE 21]</p>
+                    </div>
+
+                    <div class="year-content">
+                        <h5>Contenidos Mínimos (Comunicación e Información en las Organizaciones)</h5>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>5º Año</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Comprensión del proceso de comunicación y los tipos de información organizacional. Análisis de sistemas de archivo y registro contable. Aplicación de herramientas para la gestión de la información.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subject-section">
+                    <h4>Recursos Humanos y Relaciones Laborales</h4>
+                    <div class="year-content">
+                        <h5>5º Año</h5>
+                        <h6>Fundamentación</h6>
+                        <p>Este espacio curricular aborda la gestión del capital humano en las organizaciones, desde la perspectiva de las relaciones laborales. Se busca que los estudiantes comprendan los procesos de reclutamiento, selección, capacitación y desarrollo del personal, así como la importancia de un ambiente laboral justo y equitativo. Se abordan temas como la jornada laboral, la remuneración y la legislación laboral. [PAGE 13, 13]</p>
+                        <h6>Propósitos de Enseñanza</h6>
+                        <ul>
+                            <li>Comprender la importancia que tiene en una organización el capital humano, entendiendo el trabajo como un medio para desarrollar el potencial profesional. [PAGE 13, 13]</li>
+                            <li>Identificar diferentes contextos laborales y analizar las interacciones que se realizan entre las personas y sus actividades laborales. [PAGE 13, 13]</li>
+                            <li>Valorar el crecimiento, la participación y la motivación de la fuerza laboral para el logro de los objetivos organizacionales. [PAGE 13, 13]</li>
+                        </ul>
+                        <h6>Contenidos Mínimos / Núcleos Temáticos</h6>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Eje</th>
+                                        <th>Núcleos Temáticos</th>
+                                        <th>Contenidos</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="3">Eje: Derecho y Trabajo.</td>
+                                        <td>Recursos Humanos.</td>
+                                        <td>Mercado Laboral: oferta y demanda de mano de obra. Planificación de Requerimientos de Recursos Humanos. Caracterización de Demanda de Personal. Diseños de Puestos de Trabajo. Curriculum Vitae. Reclutamiento de Personal. Tipos. Medios. Selección de candidatos. Entrevistas de Selección. Capacitación y desarrollo del personal. Orden, clasificación, sistematización de documentación, archivos y Legajos del personal. [PAGE 14]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Legislación Laboral.</td>
+                                        <td>Derecho del Trabajo y de la seguridad social: principios y generalidades. Ley de Contrato de Trabajo: alcances, características, generalidades. Empleador-empleado: derechos y deberes. Jornada laboral. Remuneraciones. Trabajo de mujeres y de menores. Contratos laborales: características, tipos, extinción del contrato. Alta del trabajador. Trámites de la Seguridad Social. [PAGE 14]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Calidad del Entorno Laboral.</td>
+                                        <td>Coaching. Detección de problemáticas. Solución de conflictos. Intervención: negociación, mediación. Motivación: factores de la motivación. Calidad del entorno laboral: dinámica de grupos. Círculos de calidad. Empowerment. [PAGE 14]</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="citation">Adaptado de: Orientación en Economía y Administración - Anexo VI, Hoja 14 (p. 14 del documento).</p>
+                        <h6>Orientaciones Metodológicas</h6>
+                        <p>Se propone el estudio de publicaciones locales (avisos clasificados, periódicos, revistas), dramatizaciones de situaciones conflictivas, simulaciones de procesos de administración de recursos humanos, trabajo de campo (observar y registrar en organizaciones), y estudio de casos para aplicar normas jurídicas. [PAGE 17, 19]</p>
+                        <h6>Evaluación</h6>
+                        <p>La evaluación se orienta a la identificación y el análisis de problemáticas de recursos humanos y relaciones laborales. Incluye el conocimiento y análisis de la lógica de procesos, la interpretación y el análisis crítico de fuentes de información y la producción de recursos (lenguajes y tecnologías). Se valora la promoción de prácticas colaborativas y el seguimiento permanente del avance de los estudiantes. [PAGE 21]</p>
+                    </div>
+
+                    <div class="year-content">
+                        <h5>Contenidos Mínimos (Recursos Humanos y Relaciones Laborales)</h5>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>5º Año</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Comprensión de los procesos de gestión de recursos humanos (reclutamiento, selección, capacitación). Análisis de la legislación laboral y sus implicancias. Resolución de problemáticas relacionadas con el entorno laboral.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subject-section">
+                    <h4>Macroeconomía</h4>
+                    <div class="year-content">
+                        <h5>6º Año</h5>
+                        <h6>Fundamentación</h6>
+                        <p>La Macroeconomía de 6º año aborda los grandes agregados macroeconómicos y las políticas macroeconómicas, con énfasis en el contexto nacional y global. Se busca que los estudiantes comprendan el funcionamiento de la economía en su conjunto, las relaciones entre los distintos sectores y el impacto de las políticas públicas. [PAGE 8, 10]</p>
+                        <h6>Propósitos de Enseñanza</h6>
+                        <ul>
+                            <li>Promover la elaboración de estrategias de trabajo inter y multidisciplinario que posibiliten el análisis y la comprensión del contexto histórico específico y los procesos económicos y administrativos que se desarrollan. [PAGE 2, 4]</li>
+                            <li>Generar en el aula instancias de trabajo crítico reflexivo sobre las causas y consecuencias de la toma de decisiones de carácter económico, reconociendo el carácter social de la economía. [PAGE 2, 4]</li>
+                            <li>Propiciar el análisis del Rol del Estado en el desarrollo de las actividades económicas para comprender su rol en vistas al bienestar general de los habitantes de su región. [PAGE 2, 4]</li>
+                            <li>Favorecer el desarrollo de habilidades que permitan la realización de análisis complejos y situados en diferentes procesos económicos. [PAGE 2, 4]</li>
+                            <li>Promover la elaboración de estrategias de trabajo colaborativas para abordar de manera articulada conceptos de Desarrollo Sustentable. [PAGE 2, 4]</li>
+                        </ul>
+                        <h6>Contenidos Mínimos / Núcleos Temáticos</h6>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Eje</th>
+                                        <th>Núcleos Temáticos</th>
+                                        <th>Contenidos</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="4">Eje: Economía y Desarrollo.</td>
+                                        <td>Rol del Estado en la actividad económica.</td>
+                                        <td>Funciones del Sector Público. Gastos y Recursos Públicos. Tributos. Nociones elementales. Impuestos. Tasas. Contribuciones. El presupuesto. Los principios presupuestarios. Estructura y contenido de los presupuestos. Superávit y Déficit Fiscal. Política Fiscal. Efectos. [PAGE 9, 11]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Agregados Económicos.</td>
+                                        <td>Consumo. Ahorro. Inversión. Factores que los determinan. Producto Bruto Interno. Producto Bruto Nacional. [PAGE 9, 11]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dinero y Sistema Financiero.</td>
+                                        <td>El dinero como medio de cambio. Intermediarios financieros. Oferta Monetaria. Políticas. Inflación. Deflación. Causas. Consecuencias. [PAGE 9, 11]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Comercio Internacional.</td>
+                                        <td>Economía abierta. Justificaciones. Tipo de cambio. Componentes de Balanza de Pagos. [PAGE 9, 11]</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="citation">Adaptado de: Orientación en Economía y Administración - Anexo VI, Hoja 9 (p. 9 del documento).</p>
+                        <h6>Orientaciones Metodológicas</h6>
+                        <p>Se propone generar instancias de trabajo crítico y reflexivo, promoviendo el análisis del rol del Estado en las actividades económicas. Se enfatiza el trabajo colaborativo en la elaboración de estrategias para abordar conceptos de Desarrollo Sustentable. [PAGE 2, 4]</p>
+                        <h6>Evaluación</h6>
+                        <p>La evaluación se orienta a la identificación y el análisis de problemáticas socio-económicas, organizacionales y ambientales. Incluye el conocimiento y análisis de la lógica de procesos de planificación, ejecución y control de operaciones, la interpretación y el análisis crítico de fuentes de información y la producción de recursos (lenguajes y tecnologías). Se valora la promoción de prácticas colaborativas y el seguimiento permanente del avance de los estudiantes. [PAGE 21]</p>
+                    </div>
+
+                    <div class="year-content">
+                        <h5>Contenidos Mínimos (Macroeconomía)</h5>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>6º Año</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Comprensión de los agregados macroeconómicos (consumo, ahorro, inversión). Análisis de las políticas fiscal y monetaria. Entendimiento del comercio internacional y la balanza de pagos.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subject-section">
+                    <h4>Emprendimiento Socio Productivo</h4>
+                    <div class="year-content">
+                        <h5>6º Año</h5>
+                        <h6>Fundamentación</h6>
+                        <p>A partir de la experiencia de los estudiantes del año anterior, donde realizaron una intervención social real en su comunidad, este espacio pretende profundizar saberes y contenidos, vincular teoría y práctica, integrar espacios de los tres años de la Orientación, gestionando en el último año un emprendimiento social y productivo. Se propone ser un auténtico espacio de integración de saberes y articular y transferir a situaciones reales todo lo aprendido. [PAGE 14, 16]</p>
+                        <h6>Propósitos de Enseñanza</h6>
+                        <ul>
+                            <li>Fomentar el espíritu emprendedor y la iniciativa, el espíritu crítico, la toma de decisiones, el compromiso, la dedicación y la visión sistémica de las actividades de una organización productiva. [PAGE 14, 16]</li>
+                            <li>Desarrollar habilidades para el diseño y la gestión de proyectos de emprendimiento social y productivo. [Inferred from PAGE 14, 16]</li>
+                            <li>Promover la reflexión sobre el impacto social y ambiental de los emprendimientos. [Inferred from PAGE 14, 16]</li>
+                        </ul>
+                        <h6>Contenidos Mínimos / Núcleos Temáticos</h6>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Eje</th>
+                                        <th>Núcleos Temáticos</th>
+                                        <th>Contenidos</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="5">Eje: Administración y Contabilidad.</td>
+                                        <td>Actitud Emprendedora.</td>
+                                        <td>El emprendedor y sus características. Emprendimientos innovadores. Emprendimientos de economía social. [PAGE 15]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Plan de Negocios.</td>
+                                        <td>Idea de negocio: Características y estructura. Análisis de mercado, técnico, legal, ambiental, económico y financiero. Financiación de empresas de economía social. Ventajas y desventajas de tipos de financiamiento. [PAGE 15]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Estrategias de Marketing.</td>
+                                        <td>Segmentación del mercado consumidor. Estudio de Mercado. Forma de Comercialización: distribución, packaging, embalajes de productos terminados y subproductos. Plan de Publicidad y Promoción. Fijación del Precio de Venta. Elaboración de Propuesta de Servicio de Postventa. [PAGE 15]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Producción y Costos.</td>
+                                        <td>Plan de Producción. Distribución de Planta. Diagrama de Procesos. Determinación de costos. Clasificación de costos: fijos, variables, directos, indirectos. Abastecimiento de Materia Prima. Listado de Proveedores. Plan de Stock de productos terminados. Tratamiento de Efluentes - Nociones de Impacto Ambiental. Verificación de Calidad de la producción. [PAGE 15]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Diseño y Gestión.</td>
+                                        <td>Puesta en Marcha. Constitución y Contratos. Contratos Laborales. Especificación operacional de actividades y tareas. Distribución de tareas y responsables. Plan de trabajo. Cronograma de ejecución. Presupuestos. Impuestos, Tasas y contribuciones que gravan la actividad. Toma de decisiones. [PAGE 15]</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="citation">Adaptado de: Orientación en Economía y Administración - Anexo VI, Hoja 15 (p. 15 del documento).</p>
+                        <h6>Orientaciones Metodológicas</h6>
+                        <p>Se propone la conformación de un equipo docente integrado, con fuerte experiencia en la gestión de proyectos y formación en el registro de experiencias. Se busca la realización de actividades grupales para la integración y el desarrollo de capacidades vinculadas al trabajo en equipo. Se sugiere la elaboración de informes, estudio de casos, y trabajo de campo. [PAGE 14, 16, 17, 19]</p>
+                        <h6>Evaluación</h6>
+                        <p>La evaluación es dinámica y permanente, buscando fortalecer la motivación y el interés. Se propone la diversificación de técnicas y herramientas, incluyendo evaluaciones cualitativas y cuantitativas, considerando la interpretación de consignas, las ideas puestas en juego y la claridad en los conceptos. [PAGE 19, 21]</p>
+                    </div>
+
+                    <div class="year-content">
+                        <h5>Contenidos Mínimos (Emprendimiento Socio Productivo)</h5>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>6º Año</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Identificación de oportunidades de negocio. Diseño y gestión de proyectos de emprendimiento (plan de negocios, marketing, producción, finanzas). Evaluación del impacto social y económico.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="year-content">
+                    <h5>Contenidos Mínimos (General de la Orientación)</h5>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>4º Año</th>
+                                    <th>5º Año</th>
+                                    <th>6º Año</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Comprender los conceptos básicos de economía (microeconomía) y administración (organizaciones). Identificar los fundamentos del Derecho y su aplicación.</td>
+                                    <td>Comprender la economía social y el desarrollo local. Analizar estrategias de comercialización y marketing, y la comunicación e información en las organizaciones. Comprender la gestión de recursos humanos y las relaciones laborales.</td>
+                                    <td>Comprender los agregados macroeconómicos y las políticas económicas. Diseñar y gestionar proyectos de emprendimiento socio-productivo.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Escuela Provincial N°743. Todos los derechos reservados.</p>
+        <p>Provincia del Chubut - Ministerio de Educación</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

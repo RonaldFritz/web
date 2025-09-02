@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuela 743 - Observación de Clase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-top">
+                <img src="assets/logo.png" alt="Logo Escuela 743" class="school-logo">
+                <div class="header-info">
+                    <h1>Escuela 743 - ¡Bienvenidos!</h1>
+                    <p>Provincia del Chubut - Ministerio de Educación</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="diseño-ciclo-basico.html">Diseño Curricular C. Básico</a></li>
+                    <li><a href="diseño-general-co.html">Diseño Curricular C.O.</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Orientaciones</a>
+                        <div class="dropdown-content">
+                            <a href="economia.html">Economía y Administración</a>
+                            <a href="naturales.html">Ciencias Naturales</a>
+                            <!-- Puedes agregar más orientaciones aquí -->
+                        </div>
+                    </li>
+                    <!-- Nuevo elemento dropdown para Gestión Institucional -->
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn active">Gestión Institucional</a>
+                        <div class="dropdown-content">
+                            <a href="pci.html">P.C.I.</a>
+                            <a href="piev.html">P.I.Ev.</a>
+                            <a href="corredores.html">Corredores</a>
+                            <a href="observacion.html" class="active">Observación de Clase</a>
+							<a href="autoobs.html" class="active">Auto observación</a>
+                        </div>
+                    </li>
+                    <li><a href="diseño-general-co.html#about">Acerca de este sitio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="observacion-clase">
+            <h2>Lista de Cotejo de Observación de Clase</h2>
+            <div class="content-block">
+                <p>Adaptado de Teach, un instrumento de observación de aula elaborado por el Banco Mundial.</p>
+
+                <div class="observation-info-grid">
+                    <div><strong>Fecha:</strong> </div>
+                    <div><strong>Docente a cargo:</strong> </div>
+                    <div><strong>Espacio Curricular:</strong> </div>
+                    <div><strong>Curso:</strong> </div>
+                    <div><strong>Horario:</strong> </div>
+                    <div><strong>Cant. de est. presentes:</strong> </div>
+                    <div><strong>Contenido / Saberes / Habilidades:</strong> </div>
+                    <div></div> <!-- Empty div for alignment -->
+                </div>
+
+                <table class="observation-checklist-table">
+                    <thead>
+                        <tr>
+                            <th class="criteria-col" colspan="2">CRITERIOS</th>
+                            <th class="check-col">SI</th>
+                            <th class="check-col">NO</th>
+                            <th class="check-col">PARC</th>
+                            <th class="observation-col">OBSERVACIONES</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- CULTURA DEL AULA -->
+                        <tr class="category-row culture-of-classroom">
+                            <td rowspan="6" class="vertical-text">CULTURA DEL AULA</td>
+                            <td class="sub-category-header">AMBIENTE DE APRENDIZAJE</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Manifestación de respeto, uso de lenguaje positivo, atención oportuna, promoción de la equidad.</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr class="sub-category-header">
+                            <td>EXPECTATIVAS POSITIVAS DE COMPORTAMIENTO</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Establecimiento de expectativas claras de comportamiento para las actividades de la clase.</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Redirección del comportamiento inapropiado con enfoque en la conducta esperada.</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td class="filler-row"></td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+
+
+                        <!-- ENSEÑANZA -->
+                        <tr class="category-row teaching">
+                            <td rowspan="20" class="vertical-text">ENSEÑANZA</td>
+                            <td class="sub-category-header">FACILITACIÓN DE LA CLASE</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Articulación explícita de los objetivos de la clase y vinculación con las actividades propuestas.</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Claridad en la explicación de contenidos y su conexión con otros saberes y la vida cotidiana.</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Diversificación de recursos (Tecnológicos/otros)</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr class="sub-category-header">
+                            <td>VERIFICACIÓN DEL ENTENDIMIENTO</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Implementación de estrategias de verificación de comprensión.</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Supervisión activa durante el trabajo individual o grupal de la mayoría de los estudiantes</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Ajuste de la clase en función del nivel de comprensión de los estudiantes.</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr class="sub-category-header">
+                            <td>RETROALIMENTACIÓN</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Provisión de comentarios claros para resolver confusiones.</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Formulación de cuestionamientos orientados al reconocimiento de logros.</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Promoción de la autorreflexión y la participación activa.</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr class="sub-category-header">
+                            <td>PENSAMIENTO CRÍTICO</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Formulación de preguntas abiertas y estimulación de la participación reflexiva con argumentación fundamentada (oral o escrita).</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Proposición de actividades que favorecen el pensamiento crítico.</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr class="sub-category-header">
+                            <td>INCLUSIÓN Y ATENCIÓN A LA DIVERSIDAD</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Adaptación de propuestas e identificación de barreras para favorecer la inclusión y la participación de todos los estudiantes.</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr class="sub-category-header">
+                            <td>DISEÑO Y EJECUCIÓN DIDÁCTICA</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Coherencia de la secuencia didáctica (objetivos, actividades y evaluación)</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Uso eficiente del tiempo asignado para cada momento de la clase (con flexibilidad según el contexto).</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+
+
+                        <!-- HABILIDADES SOCIOEMOCIONALES -->
+                        <tr class="category-row socioemotional-skills">
+                            <td rowspan="8" class="vertical-text">HABILIDADES SOCIOEMOCIONALES</td>
+                            <td class="sub-category-header">AUTONOMÍA</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Generación de opciones y oportunidades para la toma de decisiones y asunción de roles.</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Fomento de la participación voluntaria (dependiendo de la edad y dinámica del grupo).</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr class="sub-category-header">
+                            <td>PERSEVERANCIA</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Reconocimiento del esfuerzo y promoción de una actitud positiva frente a los desafíos, incentivando el establecimiento y seguimiento de metas personales o académicas.</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr class="sub-category-header">
+                            <td>HABILIDADES SOCIALES & COLABORATIVAS</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Promoción de la colaboración entre pares.</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Estimulación de habilidades interpersonales en contextos colaborativos.</td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="other-considerations">
+                    <h3>OTRAS CONSIDERACIONES</h3>
+                    <p>(Espacio abierto para registrar aspectos del contexto, trabajo interdisciplinario, uso de recursos, vínculo con la comunidad educativa y observaciones generales.):</p>
+                    <textarea class="large-textarea" rows="8"></textarea>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Escuela Provincial N°743. Todos los derechos reservados.</p>
+        <p>Provincia del Chubut - Ministerio de Educación</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

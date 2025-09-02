@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuela 743 - Instrumento de observación</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos básicos para la tabla de la rúbrica, puedes ajustarlos en style.css */
+        .rubrica-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .rubrica-table th, .rubrica-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            vertical-align: top;
+        }
+        .rubrica-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .rubrica-table .category-header {
+            text-align: center;
+            font-weight: bold;
+            background-color: #e0e0e0;
+            vertical-align: middle;
+        }
+        .rubrica-table .reflection-row td {
+            background-color: #f9f9f9;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-top">
+                <img src="assets/logo.png" alt="Logo Escuela 743" class="school-logo">
+                <div class="header-info">
+                    <h1>Escuela 743 - ¡Bienvenidos!</h1>
+                    <p>Provincia del Chubut - Ministerio de Educación</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="diseño-ciclo-basico.html">Diseño Curricular C. Básico</a></li>
+                    <li><a href="diseño-general-co.html">Diseño Curricular C.O.</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Orientaciones</a>
+                        <div class="dropdown-content">
+                            <a href="economia.html">Economía y Administración</a>
+                            <a href="naturales.html">Ciencias Naturales</a>
+                            <!-- Puedes agregar más orientaciones aquí -->
+                        </div>
+                    </li>
+                    <!-- Nuevo elemento dropdown para Gestión Institucional -->
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Gestión Institucional</a>
+                        <div class="dropdown-content">
+                            <a href="pci.html">P.C.I.</a>
+                            <a href="piev.html">P.I.Ev.</a>
+                            <a href="corredores.html">Corredores</a>
+                            <a href="observacion.html" class="active">Instrumento de observación</a>
+                            <a href="autoobs.html">Auto observación</a>
+                        </div>
+                    </li>
+                    <li><a href="diseño-general-co.html#about">Acerca de este sitio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="instrumento-observacion">
+            <h2>Rúbrica para la auto observación de clases</h2>
+
+            <div class="content-block">
+                <p>A continuación se presenta una rúbrica diseñada para la auto observación de clases, una herramienta que permite a los docentes reflexionar sobre su práctica pedagógica en diferentes dimensiones.</p>
+
+                <table class="rubrica-table">
+                    <thead>
+                        <tr>
+                            <th rowspan="2"></th> <!-- Empty cell for the category header -->
+                            <th rowspan="2">Criterios</th>
+                            <th colspan="4">Nivel de Logro</th>
+                            <th rowspan="2">Comentarios y observaciones</th>
+                        </tr>
+                        <tr>
+                            <th>Logrado</th>
+                            <th>Avanzado</th>
+                            <th>En camino</th>
+                            <th>A revisar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Sección: Organización y clima de clase -->
+                        <tr>
+                            <th rowspan="4" class="category-header">Organización y clima de clase</th>
+                            <td>Preparación de materiales</td>
+                            <td>Todos los recursos están disponibles, adaptados a las necesidades del grupo y listos al inicio de la clase.</td>
+                            <td>Materiales disponibles, aunque podrían optimizarse para una mayor inclusión.</td>
+                            <td>La clase cuenta con materiales, aunque algunos elementos se integran durante el desarrollo.</td>
+                            <td>La disponibilidad de recursos aún puede fortalecerse para acompañar mejor la propuesta.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Gestión del tiempo</td>
+                            <td>El tiempo se gestiona de forma flexible, equilibrando explicación, participación y cierre.</td>
+                            <td>Se respeta el tiempo planificado; hay momentos de participación, aunque con poca adaptación.</td>
+                            <td>La organización del tiempo presenta tramos desbalanceados, con predominio de algunas etapas.</td>
+                            <td>La dinámica del tiempo aún requiere ajustes para favorecer el desarrollo completo de la clase.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Clima emocional</td>
+                            <td>Se promueve un ambiente seguro, empático y participativo, con estrategias claras de convivencia.</td>
+                            <td>El clima es positivo, con respuestas adecuadas ante tensiones o desacuerdos.</td>
+                            <td>El ambiente es funcional, aunque las interacciones podrían fortalecerse.</td>
+                            <td>Se evidencian oportunidades para mejorar el acompañamiento emocional en el aula.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Colaboración</td>
+                            <td>Se integran dinámicas cooperativas planificadas y contextualizadas.</td>
+                            <td>Se proponen momentos de trabajo grupal, aunque con menor estructuración.</td>
+                            <td>Se promueve la interacción puntual entre pares.</td>
+                            <td>Se identifican oportunidades para fortalecer el trabajo colaborativo.</td>
+                            <td></td>
+                        </tr>
+
+                        <!-- Reflexión 1 -->
+                        <tr>
+                            <td colspan="7" class="reflection-row">
+                                <p><strong>Reflexión:</strong> ¿Cómo puedo mejorar la disposición del espacio o la gestión emocional del grupo?</p>
+                            </td>
+                        </tr>
+
+                        <!-- Sección: Metodología y Aprendizaje Activo -->
+                        <tr>
+                            <th rowspan="6" class="category-header">Metodología y Aprendizaje Activo</th>
+                            <td>Participación de los estudiantes</td>
+                            <td>La participación es activa y sostenida; se promueven múltiples formas de expresión e implicación.</td>
+                            <td>Los estudiantes participan con frecuencia y se abren espacios para que todos aporten.</td>
+                            <td>La participación es parcial o concentrada en algunos estudiantes.</td>
+                            <td>Se identifican oportunidades para ampliar y diversificar la participación.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Objetivos de Aprendizaje</td>
+                            <td>Los objetivos son comunicados, específicos, mensurables y alineados con la actividad.</td>
+                            <td>Presentes y comprensibles, aunque no discutidos con los estudiantes</td>
+                            <td>Formulados con poca precisión o poco visibles en la clase.</td>
+                            <td>Aún se requiere explicitar y conectar los objetivos con la propuesta.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Conocimientos Previos</td>
+                            <td>Se rescatan ideas iniciales vinculadas con experiencias previas y se usan para construir sentido.</td>
+                            <td>Se recuperan conocimientos previos, aunque sin articulación clara con lo nuevo.</td>
+                            <td>Se abordan recuerdos o ideas sueltas, sin conexión profunda.</td>
+                            <td>Aún se necesita fortalecer el trabajo con ideas previas del grupo.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Diversidad metodológica</td>
+                            <td>Se emplean diversas estrategias activas adaptadas al contenido y al grupo.</td>
+                            <td>Se combinan metodologías tradicionales con enfoques activos.</td>
+                            <td>Predomina la exposición, con participación intercalada.</td>
+                            <td>Se está iniciando el uso de estrategias variadas para enriquecer la propuesta.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Adaptación a estilos</td>
+                            <td>Las actividades contemplan distintos estilos de aprendizaje y ritmos.</td>
+                            <td>Hay adaptaciones puntuales según observaciones del grupo.</td>
+                            <td>Se observa una intención de diferenciación que aún puede profundizarse.</td>
+                            <td>Se abren posibilidades para incluir más variedad de abordajes según los estudiantes.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Profundidad cognitiva</td>
+                            <td>Se promueven análisis, interpretación y producción de ideas nuevas.</td>
+                            <td>Las actividades invitan a aplicar y comprender conceptos.</td>
+                            <td>El foco está puesto en recordar o reconocer información.</td>
+                            <td>Se puede ampliar el nivel de desafío cognitivo en la propuesta.</td>
+                            <td></td>
+                        </tr>
+
+                        <!-- Competencias de indagación (como criterio independiente, sin categoría vertical) -->
+                        <tr>
+                            <td></td> <!-- Celda vacía en la columna de categoría -->
+                            <td>Competencias de indagación</td>
+                            <td>Se fomenta la autonomía, la pregunta y el pensamiento crítico.</td>
+                            <td>Se promueve la participación guiada, con espacios para reflexionar.</td>
+                            <td>Se ofrece lugar a la expresión, aunque de forma limitada.</td>
+                            <td>Se identifican oportunidades para fortalecer la participación activa y crítica.</td>
+                            <td></td>
+                        </tr>
+
+                        <!-- Reflexión 2 -->
+                        <tr>
+                            <td colspan="7" class="reflection-row">
+                                <p><strong>Reflexión:</strong> ¿Qué estrategias nuevas puedo incorporar para potenciar el aprendizaje activo?</p>
+                            </td>
+                        </tr>
+
+                        <!-- Sección: Evaluación Formativa -->
+                        <tr>
+                            <th rowspan="2" class="category-header">Evaluación Formativa</th>
+                            <td>Variedad de instrumentos</td>
+                            <td>Se emplean herramientas variadas que permiten evidenciar el proceso y promover la reflexión.</td>
+                            <td>Se combinan pruebas con instancias formativas.</td>
+                            <td>Predomina una única modalidad de evaluación.</td>
+                            <td>Se puede enriquecer la propuesta con nuevas herramientas de evaluación.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feedback efectivo</td>
+                            <td>Se ofrece retroalimentación oportuna, específica y orientada a la mejora.</td>
+                            <td>Los comentarios son pertinentes, aunque con menor detalle.</td>
+                            <td>La devolución es general o poco personalizada.</td>
+                            <td>Se pueden fortalecer los momentos y modos de retroalimentación.</td>
+                            <td></td>
+                        </tr>
+
+                        <!-- Reflexión 3 -->
+                        <tr>
+                            <td colspan="7" class="reflection-row">
+                                <p><strong>Reflexión:</strong> ¿Cómo puedo hacer de la evaluación una herramienta de aprendizaje?</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Escuela Provincial N°743. Todos los derechos reservados.</p>
+        <p>Provincia del Chubut - Ministerio de Educación</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
